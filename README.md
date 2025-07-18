@@ -1,2 +1,2 @@
-# IFRA
-Inhancing the Features of Restaurant Application
+# Inhancing the Features of Restaurant Application
+A modern restaurant application built with React.js, designed to enhance the dining experience for both restaurant owners and customers. The app features a visually rich, responsive menu, real-time chat support, personalized suggestions, and accessibility improvements such as ARIA labels and keyboard navigation. It optimizes performance across devices, integrates social media, and offers community-driven features like user reviews and ratings, aiming for inclusivity, engagement, and scalability.
