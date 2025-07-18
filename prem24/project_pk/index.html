@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">SocialMedia</div>
+            <div class="menu">
+                <button onclick="navigateToPage('index.html')">Home</button>
+                <button onclick="navigateToPage('chat.html')">Chat</button>
+                <button onclick="navigateToPage('shop.html')">Shop</button>
+                <button onclick="navigateToPage('dating.html')">Dating</button>
+                <button onclick="navigateToPage('ai-help.html')">AI Help</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="profile">
+            <h2>User Profile</h2>
+            <div class="profile-container">
+                <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+                <div class="profile-info">
+                    <h3>John Doe</h3>
+                    <p>Bio: Software developer. Lover of tech and coffee.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 SocialMedia</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
